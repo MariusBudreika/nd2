@@ -34,9 +34,11 @@ print("heaviest weight person: ");
 $heaviest = max($peopleWeightArr);
 $keyh = array_search($heaviest, $peopleWeightArr);
 print $keyh;
+print('<br>');
+// masyvo sortas
+var_dump($peopleWeightArr);
+arsort($peopleWeightArr);
+var_dump($peopleWeightArr);
 
-if ($weightSum < 500) return print(". Gali kilti liftu, nes bendras zmoniu svoris nevirsija 500kg\t");
+if ($weightSum < 500) return print("Gali kilti liftu, nes bendras zmoniu svoris nevirsija 500kg\t");
 else return print("Negali kilti liftu , nes bendras zmoniu svoris virsija 500kg");
-
-
-
