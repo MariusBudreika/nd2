@@ -24,3 +24,4 @@ for ($i=0; $i < $assoLenght; $i++) {
     } else print $assocArr[array_keys($assocArr)[$i]];
 }
 
+print $assoLenght;

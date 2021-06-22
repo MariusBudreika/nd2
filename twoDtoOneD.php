@@ -12,4 +12,5 @@ for ($i=0; $i < count($twoD_Arr); $i++) {
         array_push($oneD_Arr, $twoD_Arr[$i][$j]);
     }
 }
+sort($oneD_Arr);
 print_r ($oneD_Arr);
